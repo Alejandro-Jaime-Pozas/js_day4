@@ -9,7 +9,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
 <!-- 'defer' method indicates an object can go to the end of the entire html content (or you can put the script directly at the end manually)-->
-<script src="/js/gettingToKownDocument.js" defer></script>
+<!-- <script src="/js/gettingToKownDocument.js" defer></script> -->
+<script src="/js/main.js" defer></script>
 <title>JS day 4</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
     </nav>
 
     <div class="container">
-        <h1 class="text-center" id="top-header">Welcome to the Country Population Generator</h1>
+        <h1 class="text-center display-5" id="top-header">Welcome to the Country Population Generator</h1>
         <br>
         <br>
         <div class="row" id="row-1">
@@ -31,7 +32,7 @@
             <div class="col-2"><button>Red</button></div>
             <div class="col-2"><button>Teal</button></div>
         </div>
-
+<!-- 
         <div class="row" id="row-2">
             <div class="col-2"><button>Blue</button></div>
             <div class="col-2"><button>Gray</button></div>
@@ -39,10 +40,16 @@
             <div class="col-2"><button>Yellow</button></div>
             <div class="col-2"><button>Red</button></div>
             <div class="col-2"><button>Teal</button></div>
-        </div>
+        </div> -->
 
         <div class="row">
             <!-- Form to come later -->
+            <form action="" id="countryForm">
+                <div class="form-group">
+                    <input type="text" name="countryName" id="countryName" class="form-control" placeholder="Enter Country Name">
+                    <input type="submit" value="Submit" class="btn btn-dark w-100">
+                </div>
+            </form>
 
         </div>
     </div>

@@ -73,9 +73,9 @@ console.log(newHeader);
 
 
 
-// add to our html
+// add to our html using .append()
 // body.append(newHeader)
 
 // put newHeader at bottom of container
 let myContainer = document.querySelector('.container');
-myContainer.append(newHeader)
+myContainer.append(newHeader);
