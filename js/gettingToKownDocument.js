@@ -73,7 +73,7 @@ console.log(newHeader);
 
 
 
-// add to our html using .append()
+// add to our html using .append(), append() adds element to the child of another element
 // body.append(newHeader)
 
 // put newHeader at bottom of container

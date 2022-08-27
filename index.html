@@ -20,7 +20,7 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container d-flex flex-column ">
         <h1 class="text-center display-5" id="top-header">Welcome to the Country Population Generator</h1>
         <br>
         <br>
@@ -43,15 +43,20 @@
         </div> -->
 
         <div class="row">
-            <!-- Form to come later -->
+            <!-- input a country and submit button -->
             <form action="" id="countryForm">
-                <div class="form-group">
-                    <input type="text" name="countryName" id="countryName" class="form-control" placeholder="Enter Country Name">
-                    <input type="submit" value="Submit" class="btn btn-dark w-100">
+                <div class="form-group d-flex">
+                    <input type="text" name="countryName" id="countryName" class="form-control me-3 w-75" placeholder="Enter Country Name">
+                    <br>
+                    <input type="submit" value="Submit" class="btn btn-dark w-25 ">
                 </div>
             </form>
-
         </div>
+
+        <div class="row" id="countryDisplay">
+            <!-- use js to grab this row and append columns w cards of country info when the user submits the form -->
+        </div>
+
     </div>
 
 
